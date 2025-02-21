@@ -1,7 +1,7 @@
 //Lista de números escolhidos:
 let listaDeRegistroNumeros = [];
 
-let numeroLimite = 10;
+let numeroLimite = 100;
 
 //Gerar número aleatório:
 let numeroSecreto = gerarNumero();
@@ -55,7 +55,7 @@ function limpar(){
 
 function mesagemInicial(){
     exibirNaTela('h1', 'Advinhe o número secreto');
-    exibirNaTela('p', 'Escolha um número entre 1 e 10');
+    exibirNaTela('p', 'Escolha um número entre 1 e 100');
 }
 
 //Exibir na tela essas informações:
