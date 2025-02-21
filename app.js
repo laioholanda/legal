@@ -1,7 +1,7 @@
 //Lista de números escolhidos:
 let listaDeRegistroNumeros = [];
 
-let numeroLimite = 100;
+let numeroLimite = 10;
 
 //Gerar número aleatório:
 let numeroSecreto = gerarNumero();
